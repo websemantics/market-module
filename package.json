@@ -1,0 +1,23 @@
+{
+  "name": "market.js",
+  "version": "1.0.0",
+  "description": "Generic Marketplace Module.",
+  "main": "resources/js/market.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websemantics/market"
+  },
+  "author": {
+    "name" : "Web Semantics, Inc."
+  },
+  "homepage" : "http://websemantics.ca",
+  "license": "MIT, GPL",
+  "dependencies": {
+    "grunt-contrib-qunit": "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-jshint": ""
+  },
+  "scripts": {
+    "prepublish": "grunt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Market Module",
+  "version": "0.1",
+  "homepage": "https://github.com/websemantics",
+  "authors": [
+    "Web Semantics, Inc. <hi@websemantics.ca>"
+  ],
+  "description": "Generic Marketplace Module",
+  "main": "resources/js/market.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "migrations",
+    "src",
+    "vendor",
+    "resources/config",
+    "resources/lang",
+    "resources/views",
+    "resources/js/libraries"
+  ],
+  "dependencies": {
+    "js-url" : "*",
+    "fingerprintjs2" : "*",
+    "flag-icon-css" : "*",
+    "css-selector-generator" : "*",
+    "heatmap.js-amd" : "*",
+    "iframe-resizer" : "*"
+  }
+}

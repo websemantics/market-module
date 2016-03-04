@@ -1,0 +1,11 @@
+{
+    "name": "websemantics/market-module",
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "Websemantics\\MarketModule\\": "src/"
+        }
+    },
+    "require": {
+    }
+}
